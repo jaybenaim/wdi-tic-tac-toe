@@ -1,0 +1,42 @@
+body { 
+    display: flex; 
+    justify-content: center; 
+}
+.gameboard { 
+    padding: 100px 0; 
+}
+.row div { 
+    height: 200px; 
+    width: 200px; 
+}
+.first-column { 
+}
+.first-row { 
+    border-bottom: 3px solid black;
+}
+.second-row { 
+    border-bottom: 3px solid black;
+}
+.second-column { 
+    border-right: 3px solid black; 
+    border-left: 3px solid black; 
+}
+
+.row1 { 
+    display: flex; 
+    flex-direction: flex-end; 
+}
+.row2 { 
+    display: flex; 
+    flex-direction: flex-end; 
+}
+.row3 { 
+    display: flex; 
+    flex-direction: flex-end; 
+}
+.x { 
+    font-size: 60px; 
+}
+.o {
+    font-size: 60px; 
+}
